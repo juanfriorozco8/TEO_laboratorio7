@@ -17,3 +17,15 @@ En este laboratorio se implementó un programa que lee gramáticas libres de con
 - `main`: contiene la información general del laboratorio.
 - `problema-1`: contiene el programa y los dos archivos de gramáticas.
 - `problema-2`: rama reservada para el PDF con el desarrollo de los ejercicios teóricos.
+
+## Problema 1
+
+El programa acepta `->` o `→` como flecha, letras mayúsculas como no terminales, letras minúsculas o dígitos como terminales y `ε` para la cadena vacía. Cada alternativa se separa con `|`.
+
+### Ejecución
+
+```bash
+python3 main.py gramaticas/gramatica1.txt gramaticas/gramatica2.txt
+```
+
+Si una línea no tiene el formato correcto, el programa muestra el archivo y el número de línea del error y se detiene antes de simplificar las gramáticas.
